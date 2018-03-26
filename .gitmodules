@@ -3,4 +3,4 @@
 	url = https://github.com/Lednerb/bilberry-hugo-theme.git
 [submodule "neves4/public"]
 	path = neves4/public
-	url = https://github.com/neves4/neves4.github.io
+	url = https://github.com/neves4/neves4.github.io.git
