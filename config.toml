@@ -11,7 +11,7 @@ DefaultContentLanguage = "en"
 googleAnalytics = ""
 
 # Enable / Disable comments on the articles via Disqus.
-disqusShortname = "bilberry-hugo-theme"
+disqusShortname = ""
 
 [params]
   # Favicon for the browser's favorites and tabs
