@@ -1,8 +1,5 @@
 #!/bin/bash
 
-cr=`echo $'\n.'`
-cr=${cr%.} # Newline para a resposta
-
 echo "Only proceed if all files are ready. Continue? (y/n)"
 read -p "" RESP
 
@@ -15,7 +12,7 @@ if [ "$RESP" = "y" ]; then
 
   git add .   # Stage all files to commit
 
-  echo "Type your commit message:"
+  echo "Type your commit message: (valid string, please)"
   read -p "" string # Ask the user to enter a string
 
   git commit -m "$string"
